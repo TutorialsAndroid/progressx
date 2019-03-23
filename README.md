@@ -1,10 +1,36 @@
-# ProgressX
+# ProgressX ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle)
 
 A material style progress wheel that you can integrate into your app
 
+**Library available at JitPack.io**
+
+[![](https://jitpack.io/v/TutorialsAndroid/progressx.svg)](https://jitpack.io/#TutorialsAndroid/progressx)
+
+## Important
+
+**Note this library was made in the making for `Kinda` app this library was copied from `materialish-progress` repository on github we made this library because we want to use own library on `Kinda` app.So this library is in development we will monthly
+update this library with some changes.**
+
+**Sample Screen**
+
+![](https://github.com/TutorialsAndroid/progressx/blob/master/art/device-2019-03-23-154713.png)
+
 ## Download
 
+Add it in your root build.gradle at the end of repositories:
 
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.TutorialsAndroid:progressx:v1.0'
+	}
 
 ## Usage
 
@@ -72,14 +98,28 @@ This way, the wheel will be as big as the parent layout. Be warned though, if th
 
 In the xml definition, besides the ```fillRadius``` property, you can set:
 
-* matProg_progressIndeterminate: boolean, if you want the wheel to spin right away.
-* matProg_barColor: color, sets the small bar's color (the spinning bar in the indeterminate wheel, or the progress bar)
-* matProg_barWidth: dimension, the width of the spinning bar
-* matProg_rimColor: color, the wheel's border color
-* matProg_rimWidth: dimension, the wheel's width (not the bar)
-* matProg_spinSpeed: float, the base speed for the bar in indeterminate mode, and the animation speed when setting a value on progress. The speed is in full turns per second, this means that if you set speed as 1.0, means that the bar will take one second to do a full turn.
-* matProg_barSpinCycleTime: integer, the time in milliseconds the indeterminate progress animation takes to complete (extending and shrinking the bar while spinning)
-* matProg_circleRadius: dimension, the radius of the progress wheel, it will be ignored if you set fillRadius to true
-* matProg_fillRadius: boolean, set to true if you want the progress wheel to fill the whole layout
-* matProg_linearProgress: boolean, set to true if you want a linear animation on the determinate progress (instead of the interpolated default one).
+* `matProg_progressIndeterminate: boolean`, if you want the wheel to spin right away.
+* `matProg_barColor: color`, sets the small bar's color (the spinning bar in the indeterminate wheel, or the progress bar)
+* `matProg_barWidth: dimension`, the width of the spinning bar
+* `matProg_rimColor: color`, the wheel's border color
+* `matProg_rimWidth: dimension`, the wheel's width (not the bar)
+* `matProg_spinSpeed: float`, the base speed for the bar in indeterminate mode, and the animation speed when setting a value on progress. The speed is in full turns per second, this means that if you set speed as 1.0, means that the bar will take one second to do a full turn.
+* `matProg_barSpinCycleTime: integer`, the time in milliseconds the indeterminate progress animation takes to complete (extending and shrinking the bar while spinning)
+* `matProg_circleRadius: dimension`, the radius of the progress wheel, it will be ignored if you set fillRadius to true
+* `matProg_fillRadius: boolean`, set to true if you want the progress wheel to fill the whole layout
+* `matProg_linearProgress: boolean`, set to true if you want a linear animation on the determinate progress (instead of the interpolated default one).
 
+```
+Copyright 2019 ProgressX
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

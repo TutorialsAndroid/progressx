@@ -1,4 +1,4 @@
-# ProgressX ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589)
+# ProgressX ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A material style progress wheel that you can integrate into your app
 

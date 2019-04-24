@@ -2,6 +2,8 @@
 
 A material style progress wheel that you can integrate into your app
 
+![](https://github.com/TutorialsAndroid/crashx/blob/master/images/WPLink.jpg)
+
 **Library available at JitPack.io**
 
 [![](https://jitpack.io/v/TutorialsAndroid/progressx.svg)](https://jitpack.io/#TutorialsAndroid/progressx)

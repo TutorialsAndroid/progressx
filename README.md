@@ -6,11 +6,6 @@ A material style progress wheel that you can integrate into your app
 
 [![](https://jitpack.io/v/TutorialsAndroid/progressx.svg)](https://jitpack.io/#TutorialsAndroid/progressx)
 
-## Important
-
-**Note this library was made in the making for `Kinda` app this library was copied from `materialish-progress` repository on github we made this library because we want to use own library on `Kinda` app.So this library is in development we will monthly
-update this library with some changes.**
-
 **Sample Screen**
 
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/art/device-2019-03-23-154713.png)

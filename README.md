@@ -1,4 +1,4 @@
-# ProgressX ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# ProgressX ![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A material style progress wheel that you can integrate into your app
 
@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.TutorialsAndroid:progressx:v2.0'
+	        implementation 'com.github.TutorialsAndroid:progressx:v3.0.19'
 	}
 
 ## Usage
@@ -32,7 +32,7 @@ Step 2. Add the dependency
 You can create your own progress wheel in xml like this (remeber to add ```xmlns:wheel="http://schemas.android.com/apk/res-auto"```):
 
 ```xml
-<com.kinda.progressx.ProgressWheel
+<com.kinda.developer.ProgressWheel
         android:id="@+id/progress_wheel"
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -76,7 +76,7 @@ You can change other wheel properties such as the progress bar color, the wheel'
 In case you want the spinning wheel to fill the whole layout instead of having a fixed size, you can use ```matProg_fillRadius```.
 
 ```xml
-<com.kinda.progressx.ProgressWheel
+<com.kinda.developer.ProgressWheel
         android:id="@+id/progress_wheel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

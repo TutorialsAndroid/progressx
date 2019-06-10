@@ -1,4 +1,4 @@
-package com.kinda.progressx.sample;
+package com.developer.kinda.progressx;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.kinda.progressx.ProgressWheel;
+import com.developer.kinda.ProgressWheel;
 
 public class MainActivity extends Activity {
 

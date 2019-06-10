@@ -1,4 +1,4 @@
-package com.kinda.progressx;
+package com.developer.kinda;
 
 import android.annotation.TargetApi;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.kinda.progressx.sample;
+package com.developer.kinda.progressx;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

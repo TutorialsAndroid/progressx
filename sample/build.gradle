@@ -1,12 +1,10 @@
-apply plugin: 'com.android.library'
-
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.TutorialsAndroid'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
+        applicationId "com.developer.progressx.custom"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 6
@@ -22,4 +20,10 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+	
+    //android support
+	implementation 'androidx.appcompat:appcompat:1.0.2'
+	
+    //library
+	implementation project(':library')
 }

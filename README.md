@@ -8,6 +8,8 @@ A material style progress wheel that you can integrate into your app
 
 [![](https://jitpack.io/v/TutorialsAndroid/progressx.svg)](https://jitpack.io/#TutorialsAndroid/progressx)
 
+`Latest version of this library is migrated to androidx`
+
 **Sample Screen**
 
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/art/device-2019-03-23-154713.png)

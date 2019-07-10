@@ -10,6 +10,9 @@ A material style progress wheel that you can integrate into your app
 
 `Latest version of this library is migrated to androidx`
 
+## Download My Kinda App. A new way to debate on the topic
+[![](https://github.com/TutorialsAndroid/Spoti/blob/master/art/google-play-badge.png)](https://bit.ly/kindadownload)
+
 **Sample Screen**
 
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/art/device-2019-03-23-154713.png)

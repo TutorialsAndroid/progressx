@@ -10,6 +10,10 @@ A material style progress wheel that you can integrate into your app
 
 `Latest version of this library is migrated to androidx`
 
+## Hire-Us
+
+<p align="center">Are you having trouble in your android projects then let us help you with it just Email Us. We love our users, so feel free to visit https://asm.life
+
 ## Download Our New App
 
 [Cocktail Friendship App](https://play.google.com/store/apps/details?id=developer.cocktail)

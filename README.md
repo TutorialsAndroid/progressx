@@ -1,6 +1,6 @@
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
-# ProgressX ![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# ProgressX ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A material style progress wheel that you can integrate into your app
 
@@ -32,7 +32,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.TutorialsAndroid:progressx:v4.0.19'
+	        implementation 'com.github.TutorialsAndroid:progressx:v5.0.19'
 	}
 
 ## Usage

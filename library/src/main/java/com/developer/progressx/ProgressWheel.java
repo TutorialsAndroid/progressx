@@ -17,6 +17,9 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 
+/**
+ * @author tkdco , TutorialsAndroid
+ */
 public class ProgressWheel extends View {
   private final int barLength = 16;
   /**

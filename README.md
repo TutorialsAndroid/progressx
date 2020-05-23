@@ -14,6 +14,11 @@ A material style progress wheel that you can integrate into your app
 
 <p align="center">Are you having trouble in your android projects then let me help you with it just Email me. I love my users, so feel free to visit http://asm.life
 
+## And Don't Forget To Follow Me On Instagram
+
+<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/akshaysunilmasram     
+        
+
 **Sample Screen**
 
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/art/device-2019-03-23-154713.png)

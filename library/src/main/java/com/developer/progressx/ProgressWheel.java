@@ -17,16 +17,10 @@ import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 
-/**
- * @author tkdco , TutorialsAndroid
- */
 public class ProgressWheel extends View {
+
   private final int barLength = 16;
-  /**
-   * *********
-   * DEFAULTS *
-   * **********
-   */
+
   //Sizes (with defaults in DP)
   private int circleRadius = 28;
   private int barWidth = 4;
@@ -37,6 +31,7 @@ public class ProgressWheel extends View {
   private float barExtraLength = 0;
   private boolean barGrowingFromFront = true;
   private long pausedTimeWithoutGrowing = 0;
+
   //Colors (with defaults)
   private int barColor = 0xAA000000;
   private int rimColor = 0x00FFFFFF;
@@ -65,9 +60,6 @@ public class ProgressWheel extends View {
 
   private boolean shouldAnimate;
 
-  /**
-   * The constructor for the ProgressWheel
-   */
   public ProgressWheel(Context context, AttributeSet attrs) {
     super(context, attrs);
 
@@ -76,9 +68,6 @@ public class ProgressWheel extends View {
     setAnimationEnabled();
   }
 
-  /**
-   * The constructor for the ProgressWheel
-   */
   public ProgressWheel(Context context) {
     super(context);
     setAnimationEnabled();
@@ -98,10 +87,6 @@ public class ProgressWheel extends View {
 
     shouldAnimate = animationValue != 0;
   }
-
-  //----------------------------------
-  //Setting up stuff
-  //----------------------------------
 
   @Override protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
     super.onMeasure(widthMeasureSpec, heightMeasureSpec);

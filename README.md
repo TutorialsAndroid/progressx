@@ -13,7 +13,7 @@ A material style progress wheel that you can integrate into your app
 
 ## And Don't Forget To Follow Me On Instagram
 
-<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/akshay.sunil.masram.1998
+<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/a.masram444
         
 
 **Sample Screen**

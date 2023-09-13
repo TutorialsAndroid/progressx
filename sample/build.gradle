@@ -1,14 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdk 34
+    namespace 'com.developer.progressx.custom'
 
     defaultConfig {
         applicationId "com.developer.progressx.custom"
-        minSdkVersion 15
-        targetSdkVersion 29
-        versionCode 8
-        versionName "6.0.19"
+        minSdkVersion 19
+        targetSdkVersion 34
+        versionCode 9
+        versionName "7.0.0"
     }
     buildTypes {
         release {
@@ -17,8 +18,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
@@ -26,7 +27,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 	
     //android support
-	implementation 'androidx.appcompat:appcompat:1.1.0'
+	implementation 'androidx.appcompat:appcompat:1.6.1'
 	
     //library
 	implementation project(':library')

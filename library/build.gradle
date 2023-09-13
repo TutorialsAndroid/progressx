@@ -1,16 +1,34 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.TutorialsAndroid'
+ext {
+    PUBLISH_GROUP_ID = 'io.github.tutorialsandroid'
+    PUBLISH_VERSION = '7.0.0'
+    PUBLISH_ARTIFACT_ID = 'progressx'
+    PUBLISH_DESCRIPTION = 'A material style progress wheel that you can integrate into your app'
+    PUBLISH_URL = 'https://github.com/tutorialsandroid/progressx'
+    PUBLISH_LICENSE_NAME = 'Apache License'
+    PUBLISH_LICENSE_URL =
+            'https://github.com/TutorialsAndroid/progressx/blob/master/LICENSE'
+    PUBLISH_DEVELOPER_ID = 'tutorialsandroid'
+    PUBLISH_DEVELOPER_NAME = 'Akshay Masram'
+    PUBLISH_DEVELOPER_EMAIL = 'akshaysunilmasram@yahoo.com'
+    PUBLISH_SCM_CONNECTION =
+            'scm:git:github.com/tutorialsandroid/progressx.git'
+    PUBLISH_SCM_DEVELOPER_CONNECTION =
+            'scm:git:ssh://github.com/tutorialsandroid/progressx.git'
+    PUBLISH_SCM_URL =
+            'https://github.com/tutorialsandroid/progressx/tree/master'
+}
+apply from: "${rootProject.projectDir}/scripts/publish-module.gradle"
 
 android {
-    compileSdkVersion 29
+    compileSdk 34
+    namespace 'com.developer.progressx'
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdkVersion 29
-        versionCode 8
-        versionName "6.0.19"
+        minSdkVersion 19
+        targetSdkVersion 34
     }
     buildTypes {
         release {
@@ -19,8 +37,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility 1.8
-        targetCompatibility 1.8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 

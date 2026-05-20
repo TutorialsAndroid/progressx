@@ -1,10 +1,10 @@
 ![](https://github.com/TutorialsAndroid/progressx/blob/master/sample/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
-# ProgressX ![Maven Central](https://img.shields.io/maven-central/v/io.github.tutorialsandroid/progressx) ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProgressX-orange.svg?style=flat-square)](https://android-arsenal.com/details/1/7589) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# ProgressX ![Maven Central](https://img.shields.io/maven-central/v/io.github.tutorialsandroid/progressx) ![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat) [![Known Vulnerabilities](https://snyk.io/test/github/TutorialsAndroid/progressx/badge.svg?targetFile=library%2Fbuild.gradle)](https://snyk.io/test/github/TutorialsAndroid/progressx?targetFile=library%2Fbuild.gradle) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A material style progress wheel that you can integrate into your app
 
-**Library available at JitPack.io**
+**Library available at JitPack.io and MavenCentral**
 
 [![](https://jitpack.io/v/TutorialsAndroid/progressx.svg)](https://jitpack.io/#TutorialsAndroid/progressx)
 
@@ -13,7 +13,7 @@ A material style progress wheel that you can integrate into your app
 
 ## And Don't Forget To Follow Me On Instagram
 
-<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/a.masram444
+<p align="center">Follow me on instagram to stay up-to-date https://instagram.com/coderx09
         
 
 **Sample Screen**
@@ -35,7 +35,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency (Recommend to use maven instead of jitpack)
 
 	dependencies {
-	        implementation 'com.github.TutorialsAndroid:progressx:v6.0.19'
+	        implementation 'com.github.TutorialsAndroid:progressx:v7.0.1'
 	}
 
 ## Download Maven Central
@@ -52,7 +52,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency 
 
     dependencies {
-        implementation 'io.github.tutorialsandroid:progressx:7.0.0'
+        implementation 'io.github.tutorialsandroid:progressx:7.0.1'
     }
 
 ## Usage

@@ -48,15 +48,16 @@ afterEvaluate {
 
     signing {
         required {
-            gradle.taskGraph.allTasks.any { task ->
-                task.name.toLowerCase().contains("publish")
-            }
+            !version.toString().endsWith("SNAPSHOT") &&
+                    project.hasProperty("signing.keyId") &&
+                    project.hasProperty("signing.password") &&
+                    project.hasProperty("signing.secretKeyRingFile") &&
+                    gradle.taskGraph.allTasks.any { task ->
+                        task.name.toLowerCase().contains("publish") &&
+                                !task.name.toLowerCase().contains("mavenlocal")
+                    }
         }
 
         sign publishing.publications.release
     }
 }
-ext["signing.keyId"] = rootProject.ext["signing.keyId"]
-ext["signing.password"] = rootProject.ext["signing.password"]
-ext["signing.secretKeyRingFile"] = rootProject.ext["signing.secretKeyRingFile"]
-

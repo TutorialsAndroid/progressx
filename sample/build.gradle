@@ -8,8 +8,8 @@ android {
         applicationId "com.developer.progressx.custom"
         minSdkVersion 23
         targetSdkVersion 37
-        versionCode 10
-        versionName "7.0.1"
+        versionCode 11
+        versionName "7.0.2"
     }
     buildTypes {
         release {

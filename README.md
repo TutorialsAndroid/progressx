@@ -35,7 +35,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency (Recommend to use maven instead of jitpack)
 
 	dependencies {
-	        implementation 'com.github.TutorialsAndroid:progressx:v7.0.2'
+	        implementation 'com.github.TutorialsAndroid:progressx:v7.0.3'
 	}
 
 ## Download Maven Central
@@ -52,7 +52,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency 
 
     dependencies {
-        implementation 'io.github.tutorialsandroid:progressx:7.0.2'
+        implementation 'io.github.tutorialsandroid:progressx:7.0.3'
     }
 
 ## Usage

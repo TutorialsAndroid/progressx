@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 
 ext {
     PUBLISH_GROUP_ID = 'io.github.tutorialsandroid'
-    PUBLISH_VERSION = '7.0.2'
+    PUBLISH_VERSION = '7.0.3'
     PUBLISH_ARTIFACT_ID = 'progressx'
     PUBLISH_DESCRIPTION = 'A material style progress wheel that you can integrate into your app'
     PUBLISH_URL = 'https://github.com/tutorialsandroid/progressx'
